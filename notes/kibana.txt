@@ -1,0 +1,16 @@
+how to use query in kibana4
+
+aggregation search is unique in elasticsearch and also supportted in kibana4.
+
+example:
+
+{
+    "aggs" : { 
+        "colors" : { 
+            "terms" : {
+              "field" : "color" 
+            }
+        }
+    }
+}
+
