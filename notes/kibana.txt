@@ -3,7 +3,7 @@ how to use query in kibana4
 aggregation search is unique in elasticsearch and also supportted in kibana4.
 
 example:
-
+GET /cars/transactions/_search?search_type=count 
 {
     "aggs" : { 
         "colors" : { 
@@ -14,3 +14,4 @@ example:
     }
 }
 
+this use a 
